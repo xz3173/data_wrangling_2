@@ -118,9 +118,23 @@ str_detect(string_vec, "\\[")
 ## Factors
 
 ```{r}
+# "" usually indicates a character
+vec_sex = factor(c("male", "male", "female", "female"))
+vec_sex
+
+as.numeric(vec_sex)
+
+
+# change the order of "male" and "female"
+vec_sex = fct_relevel(vec_sex, "male")
+vec_sex
+
+as.numeric(vec_sex)
 
 ```
 
+
+## NSDUH
 
 ```{r}
 
