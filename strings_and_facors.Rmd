@@ -1,0 +1,7 @@
+---
+title: "strings_and_facttors"
+author: "Xue Zhang"
+date: "2023-10-17"
+output: github_document
+---
+
